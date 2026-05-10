@@ -31,8 +31,6 @@ Before Duke, I completed a B.S. at the University of Miami with triple majors in
 
 My current focus is rough volatility: numerical methods for the rough Heston model via the fractional Riccati equation, asymptotic regimes in option pricing, and statistical inference for rough volatility using high-frequency option data. I am also interested in the computational side of quantitative finance, including high-frequency trading systems and C++ implementation.
 
-My earlier work includes image compression with SVD and DCT, machine learning for parameter selection in hybrid compression algorithms, computational modeling for 4D Flow MRI, and applied large-language-model deployment. These projects made me more interested in the gap between elegant mathematical representations and the constraints of real data and computation.
-
 The broader structure behind these interests is functional analysis. I am drawn to places where the same mathematical language reappears across finance, physics, time series, and PDEs: Hilbert spaces, operators, Fourier transforms, Green's functions, characteristic functions, and integral equations.
 
 Alongside the technical work, I keep a parallel set of interests in philosophy of mathematics, metaphysics, political philosophy, Chinese intellectual history, world history, film, and the beauty of mathematical structures. I have not opened a public writing section yet; I want that page to appear only when there are finished essays worth reading rather than placeholders.
