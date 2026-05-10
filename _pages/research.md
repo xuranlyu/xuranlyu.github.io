@@ -35,6 +35,14 @@ The mathematical core of my work is:
 
 Functional analysis is the unifying lens. It gives a common grammar for objects that first appear unrelated: option pricing operators, quantum observables, time-series covariance operators, PDE solution kernels, and integral transforms.
 
+## Computational and Philosophical Background
+
+My earlier projects sit around computational mathematics, machine learning, and philosophy of mathematics. I studied image compression through **singular value decomposition** and the **discrete cosine transform**, including a presentation paper accepted by DAI 2024, and I have also explored machine-learning-based parameter selection for hybrid compression algorithms.
+
+In computational modeling, I worked on imaging and modeling techniques for aortic valve stenosis, with attention to 4D Flow MRI and deep-learning-based reconstruction of low-resolution image data. In parallel, my philosophy work has focused on mathematical Platonism, metaphysics, determinism, and the status of mathematical objects.
+
+These projects are not the center of my current research program, but they explain why I am drawn to mathematical finance as more than a collection of pricing formulas. I care about representation, approximation, inference, and the philosophical status of the structures we use.
+
 ## Cross-Domain Themes
 
 Several recurring themes connect the technical and philosophical sides of the project.
