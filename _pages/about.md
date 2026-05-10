@@ -6,7 +6,7 @@ subtitle: M.A. Economics @ <a href='https://econ.duke.edu/'>Duke University</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Durham, NC</p>
