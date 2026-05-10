@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-research",
+          title: "research",
+          description: "Current focus, broader interests, and the unifying language.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
+        },{id: "nav-publications",
           title: "publications",
           description: "Working papers, in preparation, and forthcoming work.",
           section: "Navigation",
