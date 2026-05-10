@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "research",
-          description: "Current focus, broader interests, and the unifying language.",
+          description: "Quantitative finance, time series, mathematical foundations, and cross-domain themes.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
