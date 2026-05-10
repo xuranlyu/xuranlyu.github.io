@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.A. Economics @ <a href='https://econ.duke.edu/'>Duke University</a>. Quantitative finance · Rough volatility · Stochastic analysis.
+subtitle: M.A. Economics @ <a href='https://econ.duke.edu/'>Duke University</a>. Quantitative finance · Functional analysis · Time series.
 
 profile:
   align: right
@@ -27,7 +27,11 @@ latest_posts:
 
 I am a Master's student in Economics at Duke University. My academic work sits at the intersection of **mathematical finance**, **stochastic analysis**, **time series**, and **functional analysis**.
 
+Before Duke, I completed a B.S. at the University of Miami with triple majors in **Mathematics (Computational)**, **Economics (Political)**, and **Philosophy**. That background still shapes the way I work: I like problems where technical structure, modeling choices, and conceptual interpretation have to be held together.
+
 My current focus is rough volatility: numerical methods for the rough Heston model via the fractional Riccati equation, asymptotic regimes in option pricing, and statistical inference for rough volatility using high-frequency option data. I am also interested in the computational side of quantitative finance, including high-frequency trading systems and C++ implementation.
+
+My earlier work includes image compression with SVD and DCT, machine learning for parameter selection in hybrid compression algorithms, computational modeling for 4D Flow MRI, and applied large-language-model deployment. These projects made me more interested in the gap between elegant mathematical representations and the constraints of real data and computation.
 
 The broader structure behind these interests is functional analysis. I am drawn to places where the same mathematical language reappears across finance, physics, time series, and PDEs: Hilbert spaces, operators, Fourier transforms, Green's functions, characteristic functions, and integral equations.
 
