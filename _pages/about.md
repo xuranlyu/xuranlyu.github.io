@@ -6,7 +6,7 @@ subtitle: M.A. Economics @ <a href='https://econ.duke.edu/'>Duke University</a>.
 
 profile:
   align: right
-  image:
+  image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Durham, NC</p>
@@ -25,10 +25,10 @@ latest_posts:
   limit: 3
 ---
 
-I am a Master's student in Economics at Duke University. My research interests lie at the intersection of **stochastic analysis**, **quantitative finance**, and **mathematical methods for derivative pricing**.
+I am a Master's student in Economics at Duke University. My academic work sits at the intersection of **mathematical finance**, **stochastic analysis**, **time series**, and **functional analysis**.
 
-My current work focuses on rough volatility models — specifically, numerical methods for the rough Heston model via the fractional Riccati equation, and statistical inference for rough volatility using high-frequency option data. I am also broadly interested in Fourier methods for option pricing under Lévy processes (Carr–Madan FFT, Lewis contour integrals), Hilbert space methods in stochastic analysis, and time series econometrics.
+My current focus is rough volatility: numerical methods for the rough Heston model via the fractional Riccati equation, asymptotic regimes in option pricing, and statistical inference for rough volatility using high-frequency option data. I am also interested in the computational side of quantitative finance, including high-frequency trading systems and C++ implementation.
 
-I hold a strong background in pure mathematics, including real and functional analysis, Fourier analysis, measure theory, and complex analysis. Outside of research, I have been building a portfolio of quantitative finance projects spanning volatility risk premium strategies, attention-gated momentum signals, and pairs trading with regime classification.
+The broader structure behind these interests is functional analysis. I am drawn to places where the same mathematical language reappears across finance, physics, time series, and PDEs: Hilbert spaces, operators, Fourier transforms, Green's functions, characteristic functions, and integral equations.
 
-Feel free to reach out if you'd like to discuss research or collaboration.
+Alongside the technical work, I keep a parallel set of interests in philosophy of mathematics, metaphysics, political philosophy, Chinese intellectual history, world history, film, and the beauty of mathematical structures. I have not opened a public writing section yet; I want that page to appear only when there are finished essays worth reading rather than placeholders.
