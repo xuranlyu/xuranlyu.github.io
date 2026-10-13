@@ -1,0 +1,168 @@
+// Styles for the /demos/ section: index cards and the interactive widgets.
+
+.demo-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.demo-card {
+  display: block;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  padding: 1rem 1.1rem 1.1rem;
+  color: var(--global-text-color);
+  background: var(--global-card-bg-color);
+  transition:
+    border-color 0.15s ease,
+    transform 0.15s ease;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-text-color);
+    text-decoration: none;
+    transform: translateY(-2px);
+  }
+
+  .demo-thumb {
+    color: var(--global-theme-color);
+    margin-bottom: 0.75rem;
+
+    svg {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  h3 {
+    font-size: 1.15rem;
+    margin: 0 0 0.35rem;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.92rem;
+  }
+
+  .demo-topic {
+    margin-top: 0.6rem;
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+    text-transform: lowercase;
+  }
+}
+
+.demo-widget {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1.5rem 0 2rem;
+  background: var(--global-card-bg-color);
+
+  canvas {
+    display: block;
+    width: 100%;
+    touch-action: none;
+    cursor: crosshair;
+  }
+
+  .demo-caption {
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+    margin: 0.35rem 0 0.9rem;
+  }
+}
+
+.demo-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.5rem;
+  margin-bottom: 0.9rem;
+  font-size: 0.92rem;
+
+  label {
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  input[type="range"] {
+    width: 200px;
+    accent-color: var(--global-theme-color);
+  }
+
+  input[type="checkbox"] {
+    accent-color: var(--global-theme-color);
+  }
+}
+
+.demo-seg {
+  display: inline-flex;
+  flex-wrap: wrap;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 5px;
+  overflow: hidden;
+
+  button {
+    border: 0;
+    background: transparent;
+    color: var(--global-text-color);
+    padding: 0.3rem 0.75rem;
+    font-size: 0.88rem;
+    cursor: pointer;
+
+    & + button {
+      border-left: 1px solid var(--global-divider-color);
+    }
+
+    &.is-on {
+      background: var(--global-theme-color);
+      color: var(--global-bg-color);
+    }
+  }
+}
+
+.demo-readout {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 0.4rem 1.5rem;
+  margin-top: 0.9rem;
+  font-size: 0.92rem;
+
+  div {
+    min-width: 0;
+  }
+
+  .k {
+    color: var(--global-text-color-light);
+    margin-right: 0.35rem;
+  }
+
+  .v {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.demo-readout-wide {
+  grid-template-columns: 1fr;
+
+  .k {
+    display: inline-block;
+    min-width: 8.5rem;
+  }
+}
+
+.demo-digits {
+  font-family: var(--global-code-font, monospace);
+  letter-spacing: 0.08em;
+  overflow-wrap: anywhere;
+
+  .one {
+    color: var(--global-theme-color);
+    font-weight: bold;
+  }
+}

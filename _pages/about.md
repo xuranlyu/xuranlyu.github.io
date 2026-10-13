@@ -33,4 +33,4 @@ My current focus is rough volatility: numerical methods for the rough Heston mod
 
 The broader structure behind these interests is functional analysis. I am drawn to places where the same mathematical language reappears across finance, physics, time series, and PDEs: Hilbert spaces, operators, Fourier transforms, Green's functions, characteristic functions, and integral equations.
 
-Alongside the technical work, I keep a parallel set of interests in philosophy of mathematics, metaphysics, political philosophy, Chinese intellectual history, world history, film, and the beauty of mathematical structures. I have not opened a public writing section yet; I want that page to appear only when there are finished essays worth reading rather than placeholders.
+Alongside the technical work, I keep a parallel set of interests in philosophy of mathematics, metaphysics, political philosophy, Chinese intellectual history, world history, film, and the beauty of mathematical structures.{% if site.posts.size > 0 %} Some of that writing lives in [thoughts](/thoughts/).{% endif %}
