@@ -1,0 +1,18 @@
+<svg viewBox="0 0 300 110" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <g fill="currentColor">
+    <rect x="12" y="10" width="276" height="7" />
+    <rect x="12" y="25" width="92" height="7" />
+    <rect x="196" y="25" width="92" height="7" />
+    <rect x="12" y="40" width="30.7" height="7" />
+    <rect x="73.3" y="40" width="30.7" height="7" />
+    <rect x="196" y="40" width="30.7" height="7" />
+    <rect x="257.3" y="40" width="30.7" height="7" />
+  </g>
+  <path
+    d="M12 104 L22.2 96.5 L32.4 96.5 L42.7 89 L73.3 89 L83.6 81.5 L93.8 81.5 L104 74 L196 74 L206.2 66.5 L216.4 66.5 L226.7 59 L257.3 59 L267.6 51.5 L277.8 51.5 L288 44"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    opacity="0.7"
+  />
+</svg>

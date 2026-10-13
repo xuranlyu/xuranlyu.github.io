@@ -59,6 +59,10 @@
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
+            {% comment %} thoughts stays out of the navbar until at least one essay is published {% endcomment %}
+            {% if p.permalink contains '/thoughts/' and site.posts.size == 0 %}
+              {% continue %}
+            {% endif %}
             {% if p.nav and p.autogen == null %}
               {% if p.dropdown %}
                 {% assign has_active_child = false %}
@@ -102,8 +106,8 @@
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
                   {%- if p.permalink contains '://' -%}
                     {%- assign url = p.permalink -%}
-                  {%- elsif p.permalink contains '/blog/' -%}
-                    {%- assign url = '/blog/' -%}
+                  {%- elsif p.permalink contains '/thoughts/' -%}
+                    {%- assign url = '/thoughts/' -%}
                   {%- else -%}
                     {%- assign url = p.url -%}
                   {%- endif %}
